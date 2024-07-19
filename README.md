@@ -29,6 +29,7 @@ Form Handling: Used React state to manage form inputs and handle form submission
 API Call: On form submission, an API call is made to the backend login endpoint.
 Token Management: On successful login, the JWT token received from the backend is stored in local storage for maintaining user sessions.
 Route Protection: Implemented route protection to ensure only authenticated users can access certain parts of the application. Routes requiring authentication check for the presence of a valid JWT token in local storage.
+
 **Styling:**
 
 **CSS:** Basic CSS has been applied to style the login form, ensuring it is user-friendly and visually appealing.
